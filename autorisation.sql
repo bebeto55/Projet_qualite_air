@@ -52,3 +52,33 @@ FOR UPDATE
 TO anon
 USING (true)
 WITH CHECK (true);
+
+
+
+
+
+CREATE OR REPLACE FUNCTION public.ajouter_mesures(
+    nouvelles_mesures jsonb
+)
+RETURNS integer
+LANGUAGE plpgsql
+AS $$
+DECLARE
+    nb_ajoutees integer;
+BEGIN
+
+    INSERT INTO public.mesures
+    SELECT *
+    FROM jsonb_populate_recordset(
+        NULL::public.mesures,
+        nouvelles_mesures
+    )
+    ON CONFLICT (capteur_id, time)
+    DO NOTHING;
+
+    GET DIAGNOSTICS nb_ajoutees = ROW_COUNT;
+
+    RETURN nb_ajoutees;
+
+END;
+$$;
