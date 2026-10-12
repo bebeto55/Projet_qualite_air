@@ -1,0 +1,10 @@
+2026-10-01 15:01:07,037 prochaine récupération dans 30 min
+2026-10-01 15:05:06,654 prochaine récupération dans 30 min
+2026-10-01 15:06:43,206 Lignes récupérées :, len(mise_a_jour)
+2026-10-01 15:06:45,001 prochaine récupération dans 30 min
+2026-10-01 20:44:28,797 Lignes récupérées : 34
+2026-10-01 20:44:30,435 prochaine récupération dans 30 min
+2026-10-02 01:55:04,071 Lignes récupérées : 34
+2026-10-02 01:55:06,476 prochaine récupération dans 30 min
+2026-10-10 21:21:00,040 Lignes récupérées : 34
+2026-10-10 21:21:01,272 prochaine récupération dans 30 min
