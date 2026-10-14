@@ -25,4 +25,4 @@ jobs:
       - name: Run script
         env:
           SUPABASE_TOKEN: ${{ secrets.SUPABASE_TOKEN }} # Optional: for secure API keys
-        run: python scheduled_retrieval.py
+        run: python app_streaming.py

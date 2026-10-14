@@ -35,26 +35,26 @@ supabase = create_client(url, key)
 
 #supabase.rpc("vider_mesures").execute()
 import time as time_mod #pour éviter le conflit avec "time" qui est ma variable temporelle
-while True:
-    try:
+# while True:
+try:
 
-        mise_a_jour = initialisation_tab(
-            capteurs,
-            mode="current"
-        )
+    mise_a_jour = initialisation_tab(
+        capteurs,
+        mode="current"
+    )
 
-        logging.info(f"Lignes récupérées : {len(mise_a_jour)}")
+    logging.info(f"Lignes récupérées : {len(mise_a_jour)}")
 
-        envoyer_dataframe(
-            supabase,
-            mise_a_jour,
-            "mesures",
-            batch_size = 34
-        )
-    except Exception as e:
-        print("Erreur :", e)
-    logging.info("prochaine récupération dans 30 min")
+    envoyer_dataframe(
+        supabase,
+        mise_a_jour,
+        "mesures",
+        batch_size = 34
+    )
+except Exception as e:
+    print("Erreur :", e)
+logging.info("prochaine récupération dans 30 min")
 
-    time_mod.sleep(1800)
+    # time_mod.sleep(1800)
 
 
