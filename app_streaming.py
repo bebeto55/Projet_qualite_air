@@ -29,7 +29,11 @@ load_dotenv(os.path.join(base, ".env"))
 
 #####################connexion avec la BD###############################
 url = "https://wynjcciiprpxtkvjaurm.supabase.co"
-key = os.environ["SUPABASE_TOK"]
+
+SUPABASE_TOKEN = os.getenv("SUPABASE_TOKEN", os.getenv("supabase_tok"))
+
+# key = os.environ["SUPABASE_TOK"]
+key = os.environ["SUPABASE_TOKEN"]
 supabase = create_client(url, key)
 
 
