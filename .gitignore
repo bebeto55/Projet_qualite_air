@@ -2,3 +2,7 @@
 .stremlit/secrets
 .Collecte_temps_reel/app_modifie.exe
 Collecte_temps_reel/
+
+# virtual env
+.venv
+venv/
