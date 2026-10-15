@@ -67,3 +67,154 @@
 2026-10-10 19:41:41,454 prochaine récupération dans 30 min
 2026-10-10 20:11:53,198 prochaine récupération dans 30 min
 2026-10-10 20:44:02,499 prochaine récupération dans 30 min
+2026-10-12 22:35:31,676 Lignes récupérées : 34
+2026-10-12 22:35:33,488 prochaine récupération dans 30 min
+2026-10-12 23:06:06,706 Lignes récupérées : 34
+2026-10-12 23:06:07,595 prochaine récupération dans 30 min
+2026-10-12 23:36:40,235 Lignes récupérées : 34
+2026-10-12 23:36:41,129 prochaine récupération dans 30 min
+2026-10-13 00:07:15,393 Lignes récupérées : 22
+2026-10-13 00:07:16,516 prochaine récupération dans 30 min
+2026-10-13 00:37:59,287 Lignes récupérées : 28
+2026-10-13 00:38:00,465 prochaine récupération dans 30 min
+2026-10-13 01:08:36,216 Lignes récupérées : 34
+2026-10-13 01:08:37,131 prochaine récupération dans 30 min
+2026-10-13 01:39:09,016 Lignes récupérées : 34
+2026-10-13 01:39:09,858 prochaine récupération dans 30 min
+2026-10-13 02:09:40,798 Lignes récupérées : 34
+2026-10-13 02:09:41,645 prochaine récupération dans 30 min
+2026-10-13 02:40:13,031 Lignes récupérées : 34
+2026-10-13 02:40:13,831 prochaine récupération dans 30 min
+2026-10-13 03:10:45,198 Lignes récupérées : 34
+2026-10-13 03:10:46,059 prochaine récupération dans 30 min
+2026-10-13 03:41:17,182 Lignes récupérées : 34
+2026-10-13 03:41:18,002 prochaine récupération dans 30 min
+2026-10-13 04:11:48,562 Lignes récupérées : 34
+2026-10-13 04:11:49,476 prochaine récupération dans 30 min
+2026-10-13 04:42:20,611 Lignes récupérées : 34
+2026-10-13 04:42:21,656 prochaine récupération dans 30 min
+2026-10-13 05:12:52,493 Lignes récupérées : 34
+2026-10-13 05:12:53,382 prochaine récupération dans 30 min
+2026-10-13 05:43:24,450 Lignes récupérées : 34
+2026-10-13 05:43:25,591 prochaine récupération dans 30 min
+2026-10-13 06:13:56,998 Lignes récupérées : 34
+2026-10-13 06:13:57,810 prochaine récupération dans 30 min
+2026-10-13 06:44:28,599 Lignes récupérées : 34
+2026-10-13 06:44:29,734 prochaine récupération dans 30 min
+2026-10-13 07:15:00,542 Lignes récupérées : 34
+2026-10-13 07:15:01,453 prochaine récupération dans 30 min
+2026-10-13 07:45:32,842 Lignes récupérées : 34
+2026-10-13 07:45:33,664 prochaine récupération dans 30 min
+2026-10-13 08:16:04,568 Lignes récupérées : 34
+2026-10-13 08:16:05,429 prochaine récupération dans 30 min
+2026-10-13 08:46:36,024 Lignes récupérées : 34
+2026-10-13 08:46:36,858 prochaine récupération dans 30 min
+2026-10-13 09:17:08,097 Lignes récupérées : 34
+2026-10-13 09:17:09,029 prochaine récupération dans 30 min
+2026-10-13 09:47:39,867 Lignes récupérées : 34
+2026-10-13 09:47:40,666 prochaine récupération dans 30 min
+2026-10-13 10:18:11,321 Lignes récupérées : 34
+2026-10-13 10:18:12,208 prochaine récupération dans 30 min
+2026-10-13 10:51:36,220 prochaine récupération dans 30 min
+2026-10-13 11:22:15,928 Lignes récupérées : 34
+2026-10-13 11:22:17,138 prochaine récupération dans 30 min
+2026-10-13 11:53:11,001 Lignes récupérées : 34
+2026-10-13 11:53:12,035 prochaine récupération dans 30 min
+2026-10-13 12:24:07,401 Lignes récupérées : 34
+2026-10-13 12:24:08,375 prochaine récupération dans 30 min
+2026-10-13 12:55:09,269 Lignes récupérées : 34
+2026-10-13 12:55:10,218 prochaine récupération dans 30 min
+2026-10-13 13:25:44,743 Lignes récupérées : 34
+2026-10-13 13:25:45,646 prochaine récupération dans 30 min
+2026-10-13 13:56:25,003 Lignes récupérées : 34
+2026-10-13 13:56:25,928 prochaine récupération dans 30 min
+2026-10-13 14:26:57,623 Lignes récupérées : 34
+2026-10-13 14:26:58,604 prochaine récupération dans 30 min
+2026-10-13 14:57:30,329 Lignes récupérées : 34
+2026-10-13 14:57:31,222 prochaine récupération dans 30 min
+2026-10-13 15:30:48,314 Lignes récupérées : 33
+2026-10-13 15:30:51,853 prochaine récupération dans 30 min
+2026-10-13 16:01:44,675 Lignes récupérées : 33
+2026-10-13 16:01:45,673 prochaine récupération dans 30 min
+2026-10-13 16:32:20,377 Lignes récupérées : 34
+2026-10-13 16:32:21,279 prochaine récupération dans 30 min
+2026-10-13 17:03:40,633 Lignes récupérées : 29
+2026-10-13 17:03:42,621 prochaine récupération dans 30 min
+2026-10-13 17:34:22,451 Lignes récupérées : 34
+2026-10-13 17:34:23,631 prochaine récupération dans 30 min
+2026-10-13 18:05:30,270 Lignes récupérées : 34
+2026-10-13 18:05:32,483 prochaine récupération dans 30 min
+2026-10-13 18:36:03,473 Lignes récupérées : 34
+2026-10-13 18:36:04,414 prochaine récupération dans 30 min
+2026-10-13 19:06:35,366 Lignes récupérées : 34
+2026-10-13 19:06:36,342 prochaine récupération dans 30 min
+2026-10-13 19:37:23,256 Lignes récupérées : 24
+2026-10-13 19:37:24,057 prochaine récupération dans 30 min
+2026-10-13 20:08:24,446 Lignes récupérées : 34
+2026-10-13 20:08:36,054 prochaine récupération dans 30 min
+2026-10-13 20:39:18,968 Lignes récupérées : 34
+2026-10-13 20:39:19,963 prochaine récupération dans 30 min
+2026-10-13 21:09:56,020 Lignes récupérées : 34
+2026-10-13 21:09:57,026 prochaine récupération dans 30 min
+2026-10-13 21:40:35,857 Lignes récupérées : 34
+2026-10-13 21:40:38,129 prochaine récupération dans 30 min
+2026-10-13 22:11:12,959 Lignes récupérées : 34
+2026-10-13 22:11:14,214 prochaine récupération dans 30 min
+2026-10-13 22:41:49,147 Lignes récupérées : 34
+2026-10-13 22:41:50,022 prochaine récupération dans 30 min
+2026-10-13 23:12:20,735 Lignes récupérées : 34
+2026-10-13 23:12:21,724 prochaine récupération dans 30 min
+2026-10-13 23:43:09,513 Lignes récupérées : 34
+2026-10-13 23:43:10,352 prochaine récupération dans 30 min
+2026-10-14 00:13:47,112 Lignes récupérées : 34
+2026-10-14 00:13:47,991 prochaine récupération dans 30 min
+2026-10-14 00:44:18,569 Lignes récupérées : 34
+2026-10-14 00:44:19,462 prochaine récupération dans 30 min
+2026-10-14 01:15:11,373 Lignes récupérées : 34
+2026-10-14 01:15:12,476 prochaine récupération dans 30 min
+2026-10-14 01:45:50,917 Lignes récupérées : 34
+2026-10-14 01:45:51,732 prochaine récupération dans 30 min
+2026-10-14 02:16:22,687 Lignes récupérées : 34
+2026-10-14 02:16:23,614 prochaine récupération dans 30 min
+2026-10-14 02:46:54,171 Lignes récupérées : 34
+2026-10-14 02:46:54,986 prochaine récupération dans 30 min
+2026-10-14 03:17:25,570 Lignes récupérées : 34
+2026-10-14 03:17:26,484 prochaine récupération dans 30 min
+2026-10-14 03:47:57,605 Lignes récupérées : 34
+2026-10-14 03:47:58,403 prochaine récupération dans 30 min
+2026-10-14 04:18:29,423 Lignes récupérées : 34
+2026-10-14 04:18:30,333 prochaine récupération dans 30 min
+2026-10-14 04:49:02,259 Lignes récupérées : 34
+2026-10-14 04:49:03,092 prochaine récupération dans 30 min
+2026-10-14 05:19:33,917 Lignes récupérées : 34
+2026-10-14 05:19:34,765 prochaine récupération dans 30 min
+2026-10-14 05:50:07,614 Lignes récupérées : 34
+2026-10-14 05:50:08,511 prochaine récupération dans 30 min
+2026-10-14 06:20:39,544 Lignes récupérées : 34
+2026-10-14 06:20:40,457 prochaine récupération dans 30 min
+2026-10-14 06:35:35,832 Lignes récupérées : 34
+2026-10-14 06:35:37,304 prochaine récupération dans 30 min
+2026-10-14 06:40:36,065 Lignes récupérées : 33
+2026-10-14 06:40:37,209 prochaine récupération dans 30 min
+2026-10-14 07:11:11,484 Lignes récupérées : 34
+2026-10-14 07:11:12,412 prochaine récupération dans 30 min
+2026-10-14 07:41:43,279 Lignes récupérées : 34
+2026-10-14 07:41:44,092 prochaine récupération dans 30 min
+2026-10-14 08:12:15,603 Lignes récupérées : 34
+2026-10-14 08:12:16,454 prochaine récupération dans 30 min
+2026-10-14 08:42:48,953 Lignes récupérées : 34
+2026-10-14 08:42:49,732 prochaine récupération dans 30 min
+2026-10-14 09:13:21,465 Lignes récupérées : 34
+2026-10-14 09:13:22,363 prochaine récupération dans 30 min
+2026-10-14 09:44:05,804 Lignes récupérées : 34
+2026-10-14 09:44:06,977 prochaine récupération dans 30 min
+2026-10-14 10:16:14,546 Lignes récupérées : 34
+2026-10-14 10:16:15,515 prochaine récupération dans 30 min
+2026-10-14 10:46:51,526 Lignes récupérées : 34
+2026-10-14 10:46:52,556 prochaine récupération dans 30 min
+2026-10-14 11:17:29,191 Lignes récupérées : 34
+2026-10-14 11:17:30,206 prochaine récupération dans 30 min
+2026-10-14 11:48:01,212 Lignes récupérées : 34
+2026-10-14 11:48:02,050 prochaine récupération dans 30 min
+2026-10-14 12:18:48,063 Lignes récupérées : 34
+2026-10-14 12:18:48,913 prochaine récupération dans 30 min

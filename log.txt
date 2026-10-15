@@ -8,3 +8,5 @@
 2026-10-02 01:55:06,476 prochaine récupération dans 30 min
 2026-10-10 21:21:00,040 Lignes récupérées : 34
 2026-10-10 21:21:01,272 prochaine récupération dans 30 min
+2026-10-14 20:19:09,852 Lignes récupérées : 34
+2026-10-14 20:19:19,167 prochaine récupération dans 30 min

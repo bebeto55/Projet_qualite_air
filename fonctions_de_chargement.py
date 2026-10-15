@@ -24,7 +24,7 @@ def initialisation_tab(capteurs, mode="hourly"):
                 f"hourly=european_aqi,pm10,pm2_5,nitrogen_dioxide,"
                 f"ozone,sulphur_dioxide,carbon_monoxide,birch_pollen&"
                 f"forecast_hours=0&"
-                f"past_hours=1700"
+                f"past_hours=1800"
             )
 
         elif mode == "current":
@@ -52,7 +52,7 @@ def initialisation_tab(capteurs, mode="hourly"):
                 f"hourly=temperature_2m,relative_humidity_2m,"
                 f"wind_speed_10m,wind_direction_10m,precipitation&"
                 f"forecast_hours=0&"
-                f"past_hours=1700"
+                f"past_hours=1800"
             )
 
         elif mode == "current":
