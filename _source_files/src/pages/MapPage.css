@@ -1,0 +1,50 @@
+.map-page { display: flex; flex-direction: column; gap: 20px; }
+
+.map-layout {
+  display: grid;
+  grid-template-columns: 1fr 280px;
+  gap: 16px;
+  align-items: start;
+}
+
+.map-main { border-radius: 12px; overflow: hidden; }
+
+.map-sidebar-panel { display: flex; flex-direction: column; gap: 12px; }
+
+.panel-title { font-size: 14px; font-weight: 600; color: var(--text-secondary); margin-bottom: 4px; }
+
+.sensor-card { padding: 14px; }
+
+.sensor-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-size: 13px;
+}
+
+.sensor-card-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px;
+}
+
+.sc-item { display: flex; flex-direction: column; gap: 2px; }
+.sc-item span { font-size: 10px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.4px; }
+.sc-item strong { font-size: 13px; color: var(--text-primary); }
+
+.status-pill {
+  display: inline-flex; align-items: center; gap: 4px;
+  font-size: 11px; font-weight: 500;
+}
+.status-dot { width: 6px; height: 6px; border-radius: 50%; }
+.status-pill.online  { color: var(--secondary); }
+.status-pill.online  .status-dot { background: var(--secondary); }
+.status-pill.offline { color: var(--danger); }
+.status-pill.offline .status-dot { background: var(--danger); }
+
+@media (max-width: 900px) {
+  .map-layout { grid-template-columns: 1fr; }
+  .map-sidebar-panel { flex-direction: row; overflow-x: auto; }
+  .sensor-card { min-width: 220px; }
+}

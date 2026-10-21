@@ -1,0 +1,156 @@
+.dashboard { display: flex; flex-direction: column; gap: 24px; }
+
+.loading-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+  gap: 16px;
+  color: var(--text-muted);
+}
+
+/* Page header */
+.page-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.page-title { font-size: 24px; font-weight: 700; color: var(--text-primary); }
+.page-subtitle {
+  font-size: 13px;
+  color: var(--text-muted);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 4px;
+}
+
+.header-actions { display: flex; gap: 8px; flex-wrap: wrap; }
+
+.select-sm {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text-primary);
+  font-size: 13px;
+  padding: 6px 12px;
+  cursor: pointer;
+  outline: none;
+}
+.select-sm:focus { border-color: var(--primary); }
+
+/* AQI Banner */
+.aqi-banner {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.aqi-banner-info { flex: 1; display: flex; flex-direction: column; gap: 12px; }
+.aqi-recommendation { font-size: 15px; color: var(--text-secondary); line-height: 1.6; }
+.aqi-meta { display: flex; gap: 20px; flex-wrap: wrap; font-size: 13px; color: var(--text-muted); }
+.aqi-meta strong { color: var(--text-primary); }
+
+/* KPI Grid */
+.kpi-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+}
+
+/* Charts */
+.charts-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.card-title { font-size: 15px; font-weight: 600; color: var(--text-primary); }
+
+.card-badge {
+  background: rgba(14,165,233,.15);
+  color: var(--primary);
+  font-size: 11px;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 10px;
+}
+.card-badge.danger {
+  background: rgba(239,68,68,.15);
+  color: var(--danger);
+}
+
+/* Sensor table + Alerts */
+.bottom-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.sensor-table-wrap { overflow-x: auto; }
+
+.sensor-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.sensor-table th {
+  text-align: left;
+  padding: 8px 10px;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--text-muted);
+  border-bottom: 1px solid var(--border);
+}
+
+.sensor-table td {
+  padding: 10px 10px;
+  border-bottom: 1px solid var(--border);
+  color: var(--text-secondary);
+}
+
+.sensor-table tr:last-child td { border-bottom: none; }
+
+.sensor-table tr:hover td { background: var(--bg-card-hover); }
+
+.status-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.status-pill .status-dot {
+  width: 7px; height: 7px;
+  border-radius: 50%;
+}
+
+.status-pill.online  { color: var(--secondary); }
+.status-pill.online  .status-dot { background: var(--secondary); }
+.status-pill.offline { color: var(--danger); }
+.status-pill.offline .status-dot { background: var(--danger); }
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .charts-grid, .bottom-grid { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 640px) {
+  .kpi-grid { grid-template-columns: 1fr 1fr; }
+  .aqi-banner { flex-direction: column; align-items: center; text-align: center; }
+}

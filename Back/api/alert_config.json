@@ -1,0 +1,15 @@
+{
+  "thresholds": {
+    "pm25": 55.0,
+    "pm10": 37.0,
+    "no2": 27.0,
+    "o3": 48.0
+  },
+  "notifications": {
+    "email": true,
+    "sms": false
+  },
+  "recipients": [
+    "magneirris@gmail.com"
+  ]
+}

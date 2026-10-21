@@ -1,0 +1,16 @@
+# API REST Smart City (FastAPI)
+fastapi>=0.115
+uvicorn[standard]>=0.30
+pydantic[email]>=2.7
+PyJWT>=2.8
+python-dotenv>=1.0
+requests>=2.32
+
+# Pipeline de prédiction (mêmes versions que Back/Projet_qualite_air/requirements.txt
+# pour garantir la compatibilité avec modele_aqi/bundle_aqi.joblib)
+pandas==3.0.6
+numpy==2.5.4
+scikit-learn==1.9.1
+xgboost==3.4.1
+lightgbm>=4.5.0
+joblib==1.6.0

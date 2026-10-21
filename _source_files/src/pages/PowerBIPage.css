@@ -1,0 +1,40 @@
+.powerbi-page { display: flex; flex-direction: column; gap: 24px; }
+
+.pbi-badge {
+  display: flex; align-items: center; gap: 8px;
+  background: rgba(243,208,64,.1);
+  color: #f3d040;
+  border: 1px solid rgba(243,208,64,.3);
+  padding: 6px 14px;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.pbi-dot {
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  background: #f3d040;
+  animation: livePulse 2s infinite;
+}
+
+.pbi-info-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.pbi-info-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.pbi-info-icon { font-size: 28px; }
+
+.pbi-info-card h3 { font-size: 15px; font-weight: 600; color: var(--text-primary); }
+
+.pbi-info-card p { font-size: 13px; color: var(--text-muted); line-height: 1.6; }
+
+@media (max-width: 768px) { .pbi-info-grid { grid-template-columns: 1fr; } }

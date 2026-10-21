@@ -1,0 +1,87 @@
+.mobility-page {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.mobility-kpi-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+}
+
+.mobility-kpi {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 20px;
+}
+
+.mobility-kpi-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.mobility-kpi-content {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.mobility-kpi-label {
+  font-size: 13px;
+  color: var(--text-muted);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.mobility-kpi-val {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+}
+
+.mobility-kpi-val strong {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.mobility-kpi-val span {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.mobility-chart-container {
+  margin-top: 10px;
+}
+
+.mobility-recommendations {
+  padding: 24px;
+  background: rgba(14, 165, 233, 0.05);
+  border-color: rgba(14, 165, 233, 0.2);
+}
+
+.mobility-list {
+  margin-top: 16px;
+  padding-left: 20px;
+  color: var(--text-secondary);
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.mobility-list li {
+  margin-bottom: 10px;
+}
+
+.mobility-list li:last-child {
+  margin-bottom: 0;
+}

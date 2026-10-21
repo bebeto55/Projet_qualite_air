@@ -1,0 +1,67 @@
+.predictions-page { display: flex; flex-direction: column; gap: 24px; }
+
+.page-subtitle { font-size: 13px; color: var(--text-muted); margin-top: 4px; }
+
+/* Model info */
+.model-info h3 { font-size: 15px; font-weight: 600; margin-bottom: 14px; display: flex; align-items: center; gap: 8px; }
+.model-grid { display: flex; flex-direction: column; gap: 8px; }
+.model-row { display: flex; justify-content: space-between; gap: 12px; font-size: 13px; padding: 6px 0; border-bottom: 1px solid var(--border); }
+.model-row:last-child { border-bottom: none; }
+.model-key { color: var(--text-muted); }
+.model-val { color: var(--text-primary); font-weight: 500; text-align: right; }
+
+/* Tomorrow card */
+.tomorrow-card { display: flex; flex-direction: column; gap: 16px; }
+.tomorrow-header { display: flex; align-items: flex-start; justify-content: space-between; flex-wrap: wrap; gap: 8px; }
+.tomorrow-label { font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; color: var(--text-muted); }
+.tomorrow-date  { font-size: 18px; font-weight: 700; color: var(--text-primary); margin-top: 4px; }
+.tomorrow-values { display: flex; gap: 32px; flex-wrap: wrap; }
+.tomorrow-val { display: flex; flex-direction: column; gap: 4px; }
+.tomorrow-val span { font-size: 12px; color: var(--text-muted); }
+.tomorrow-val strong { font-size: 20px; font-weight: 700; color: var(--text-primary); }
+.tomorrow-reco { font-size: 14px; color: var(--text-secondary); border-top: 1px solid var(--border); padding-top: 12px; }
+
+/* Day grid */
+.pred-day-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+  gap: 12px;
+}
+
+.pred-day-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  padding: 16px 12px;
+  position: relative;
+  text-align: center;
+}
+
+.pred-today-tag {
+  position: absolute;
+  top: -1px; left: -1px; right: -1px;
+  background: var(--primary);
+  color: #fff;
+  font-size: 10px;
+  font-weight: 700;
+  text-align: center;
+  padding: 2px;
+  border-radius: 11px 11px 0 0;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.pred-day-date { font-size: 11px; color: var(--text-muted); margin-top: 8px; }
+.pred-day-pm   { font-size: 26px; font-weight: 700; }
+.pred-day-unit { font-size: 10px; color: var(--text-muted); }
+
+.pred-day-conf { display: flex; flex-direction: column; align-items: center; gap: 3px; width: 100%; }
+
+.conf-bar { width: 100%; height: 4px; background: var(--border); border-radius: 2px; overflow: hidden; }
+.conf-fill { height: 100%; border-radius: 2px; }
+
+@media (max-width: 640px) {
+  .pred-day-grid { grid-template-columns: repeat(3, 1fr); }
+  .tomorrow-values { flex-direction: column; gap: 12px; }
+}
